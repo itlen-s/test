@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="img/1.jpg" width="100" height="24" alt="logo">
+            </a>
+            <ul>
+                <li> <a href="#">Ссылка1</a></li>
+                <li> <a href="#">Ссылка2</a></li>
+                <li> <a href="#">Ссылка3</a></li>
+                <li> <a href="#">Ссылка4</a></li>
+            </ul>
+            <a href="#">Вход</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h2>Средства для ухода</h2>
+        <ul>
+            <li>
+                <a href="index.html">Главная</a>
+            </li>
+            <li>
+                <a href="catalog.html">Каталог</a>
+            </li>
+            <li>
+                Средства для ухода
+            </li>
+        </ul>
+
+        <section>
+            <h2>Фильтр товаров</h2>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Производители</legend>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                            <label for="filter-baxter-of-california">baxter of California</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="mr-natty" id="filter-mr-natty">
+                            <label for="filter-mr-natty">Mr Natty</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>Группы товаров</legend>
+                    <ul>
+                        <li><input type="radio" name="Product-group" value="shavig" id="filter-shave">
+                        <label for="filter-shave">Бритвенные принадлежности</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="Product-group" id="filter-care" checked>
+                        <label for="filter-care">Средствадля ухода</label>
+                    </li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Список средств для ухода</h2>
+            <ul>
+                <li>
+                    <a href="product.html">
+                        <h3>Набор для путешествия "baxter-of-california"</h3>
+                        <p>
+                            <img src="img/1.jpg" width="220" height="220" alt="Набор">
+                        </p>
+                    </a>
+                    <p>2 900 P
+                        <button type="button">Купить</button>
+                    </p>
+                </li>
+                <li>
+                    <a href="product.html">
+                        <h3>Набор для путешествия "baxter-of-california" 2 </h3>
+                        <p>
+                            <img src="img/1.jpg" width="220" height="220" alt="Набор">
+                        </p>
+                    </a>
+                    <p>2 900 P
+                        <button type="button">Купить</button>
+                    </p>
+                </li>
+                <li>
+                    <a href="product.html">
+                        <h3>Набор для путешествия "baxter-of-california" 3</h3>
+                        <p>
+                            <img src="img/1.jpg" width="220" height="220" alt="Набор">
+                        </p>
+                    </a>
+                    <p>2 900 P
+                        <button type="button">Купить</button>
+                    </p>
+                </li>
+                <li>
+                    <a href="product.html">
+                        <h3>Набор для путешествия "baxter-of-california" 4</h3>
+                        <p>
+                            <img src="img/1.jpg" width="220" height="220" alt="Набор">
+                        </p>
+                    </a>
+                    <p>2 900 P
+                        <button type="button">Купить</button>
+                    </p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a>2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li>
+                    <a href="#">4</a>
+                </li>                
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <h2>Как нас найти</h2>
+            <p>Барбершоп <br>
+                Адрес: <br>
+                Телефон: <a href="tel:+79608045554">+79608045554</a> <br>
+                </p>
+        </section>
+
+        <section>
+            <h2>Давайте дружить</h2>
+            <ul>
+                <li>
+                    <a href="#">VK</a>
+                </li>
+                <li>
+                    <a href="#">Facebook</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+            </ul>
+        </section>
+        <p>
+            Разработано
+            <a href="#"> Набиуллин И.Д.</a>
+        </p>
+    </footer>
+
+    <section>
+        <h2>LK</h2>
+        <p>login and pass</p>
+        <form action="#" method="post">
+            <label for="login-login"> Login</label>
+            <input id="login-login" type="email" name="login" placeholder="email@mail.ru">
+            <p>
+            <label for="login-pas">passwprd</label>
+            <input id="login-pas" type="password" name="pass" placeholder="****">
+        </p>
+        <p>
+            <label>
+                <input type="checkbox" name="remeber"> remember
+            </label>
+            <a href="#">Я забыл пароль</a>
+            </p>
+            <button type="submit">Войти</button>
+        </form>
+        <button type="button">close</button>
+    </section>
+</body>
+</html>
